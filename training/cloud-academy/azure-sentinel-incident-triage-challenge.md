@@ -1,3 +1,9 @@
+---
+description: >-
+  Challenge to setup Azure Sentinel, collect logs from a Virtual Machine(VM),
+  create a basic analytics rule and have the rule trigger.
+---
+
 # Azure Sentinel Incident Triage Challenge
 
 **Create an Azure Sentinel Workspace**
