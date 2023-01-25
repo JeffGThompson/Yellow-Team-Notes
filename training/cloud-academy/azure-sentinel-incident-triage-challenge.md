@@ -6,6 +6,16 @@ Create an Azure Sentinel resource using the existing Log Analytics workspace.
 
 * Must use the existing workspace **calabws**
 
+Head over to Microsoft Sentinel and create it.
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+****
+
+Make sure you have the calabws workspace selected.
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
 ****
 
 **Create a Data Collection Rule in Sentinel**
@@ -14,36 +24,59 @@ Create a Data Collection Rule to collect Security Events from the Azure VM
 
 * Collection Rule name must be _windows-event_
 * Add the Azure VM **ca-lab-vm** to the data collection rule scope
-
-![](<../../.gitbook/assets/image (4).png>)
-
-*
+* The data collection must collect at least **Common** event stream
 
 
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+First we need to head over to the Log Analytics workspace and make sure that the VM is able to send logs to our workspace.
+
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 
 
+![](<../../.gitbook/assets/image (6).png>)
 
 
-![](<../../.gitbook/assets/image (13).png>)
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+Shortly after you should see that the VM has connected to the workspace.
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+Now we start creating our collection rule within Sentinel. Head back to Microsoft Sentinel. Click the data connectors and add Windows Security Events via AMA.
+
+
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+Add the rule name windows-event.
+
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+
+
+Add the VM we added to the Log Analytics workspace.
 
 
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-The data collection must collect at least **Common** event stream
-
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+Make sure we have Common selected.
+
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -59,55 +92,57 @@ Create an Analytics Rule to Run Scheduled Queries that satisfies the following:
 
 
 
-Create logs
+We're going to generate our logs first instead of later on so we can see the rule working before we create it.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
-Create the rule
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+Enter incorrect credentials a few times to create logs.
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
+Now we can start creating our Analytics rule.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ****
+
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+****
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Make sure alert threshold is greater than 0 so it fires if any hits happen.
+
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+Leave default settings.
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+Leave default settings.
 
-Make sure alert threshold is greater than 0 so it fires if any hits happen.
-
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-**Leave default settings**
-
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
-Leave default
+Click Create.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
-****
-
-Click Create
-
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
@@ -119,11 +154,15 @@ Close at least one incident from the Sentinel Incidents Dashboard
 * Wait for about 5 minutes for the analytics rule to run and analyze the data
 * Close at least one of the incidents generated by analytics rule
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+
+After a few minutes we can see an incident was created. Nothing left to do except close the incident.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
 
 
-![](<../../.gitbook/assets/image (16).png>)
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
