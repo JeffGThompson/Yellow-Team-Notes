@@ -2,11 +2,11 @@
 
 
 
+## Walkthrough
 
+Create a Pod manifest for a Pod that will consume a lot of CPU resources. The stress image runs a binary that can consume a varying amount of resources. The args instruct stress to attempt to consume two CPU cores, which is how many cores each node in the cluster has.
 
-Create a Pod manifest for a Pod that will consume a lot of CPU resources. The `stress` image runs a binary that can consume a varying amount of resources. The `args` instruct stress to attempt to consume two CPU cores, which is how many cores each node in the cluster has.
-
-**load.yaml**
+#### **load.yaml**
 
 ```
 apiVersion: v1
@@ -48,7 +48,7 @@ kubectl top nodes
 
 Create a similar Pod specification except with CPU and memory resource limits and requests. The resources key is added to specify the limits and requests. The Pod will only be scheduled on a Node with 0.35 CPU cores and 10MiB of memory available. It's important to note that the scheduler doesn't consider the actual resource utilization of the node. Rather, it bases its decision upon the sum of container resource requests on the node. For example, if a container requests all the CPU of a node but is actually 0% CPU, the scheduler would treat the node as not having any CPU available. In the context of this lab, the load Pod is consuming 2 CPUs on a Node but because it didn't make any request for the CPU, its usage doesn't impact following scheduling requests.
 
-**load-limited.yaml**
+#### **load-limited.yaml**
 
 ```
 apiVersion: v1
@@ -101,7 +101,7 @@ kubectl top pods
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-**load.yaml - Updated #1**
+#### **load.yaml - Updated #1**
 
 The value of 1.7 is chosen because there may not be a Node with a full 2 CPUs available considering some system Pods also make requests in addition to the Pods we create.
 
