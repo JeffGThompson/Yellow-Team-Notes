@@ -52,7 +52,7 @@ Now we start creating our collection rule within Sentinel. Head back to Microsof
 
 
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 Add the rule name windows-event.
 
@@ -68,7 +68,7 @@ Add the VM we added to the Log Analytics workspace.
 
 
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -100,9 +100,9 @@ Create an Analytics Rule to Run Scheduled Queries that satisfies the following:
 
 We're going to generate our logs first instead of later on so we can see the rule working before we create it.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -110,7 +110,7 @@ We're going to generate our logs first instead of later on so we can see the rul
 
 Enter incorrect credentials a few times to create logs.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now we can start creating our Analytics rule.
 
@@ -128,7 +128,7 @@ Now we can start creating our Analytics rule.
 
 ****
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Make sure alert threshold is greater than 0 so it fires if any hits happen.
 
