@@ -1,3 +1,7 @@
+---
+description: Defining an application's resource requirements using limits and requests
+---
+
 # Mastering Kubernetes Pod Configuration: Defining Resource Requirements
 
 
@@ -77,7 +81,7 @@ The nodes and output their non-terminated Pods tables to highlight how schedulin
 kubectl describe nodes | grep --after-context=5 "Non-terminated Pods"
 ```
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 Create the Pod with the resource constraints.
 
@@ -91,7 +95,7 @@ Get the Pods in wide output to display the Node running each Pod.
 kubectl get pods -o wide
 ```
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Wait a minute for the new Pod's metrics to be collected, and then display the Pod resource utilization. Notice the **load-limited** Pod is using almost half of a CPU core, which is the limit you set. The request is used for making scheduling decisions but the limit impacts the actual utilization. Using requests and limits for CPU and memory can prevent performance issues, and allow the scheduler to make the best use of the cluster's resources.
 
@@ -133,4 +137,4 @@ Confirm the Pods are running on separate Node
 kubectl get pods -o wide
 ```
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>

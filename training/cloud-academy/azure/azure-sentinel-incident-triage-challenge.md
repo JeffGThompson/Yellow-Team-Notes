@@ -6,6 +6,8 @@ description: >-
 
 # Azure Sentinel Incident Triage Challenge
 
+## **Walkthrough**
+
 **Create an Azure Sentinel Workspace**
 
 Create an Azure Sentinel resource using the existing Log Analytics workspace.
@@ -36,7 +38,7 @@ Create a Data Collection Rule to collect Security Events from the Azure VM
 
 First we need to head over to the Log Analytics workspace and make sure that the VM is able to send logs to our workspace.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -114,7 +116,7 @@ Enter incorrect credentials a few times to create logs.
 
 Now we can start creating our Analytics rule.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -124,11 +126,11 @@ Now we can start creating our Analytics rule.
 
 ****
 
-<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
-<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Make sure alert threshold is greater than 0 so it fires if any hits happen.
 

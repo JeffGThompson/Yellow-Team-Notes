@@ -1,3 +1,10 @@
+---
+description: >-
+  Reviewing the available options for configuring security contexts. Then
+  creating multiple pods with differing security contexts to observe the effects
+  of each.
+---
+
 # Mastering Kubernetes Pod Configuration: Security Contexts
 
 ## Walkthrough
@@ -74,7 +81,7 @@ List the devices available in the container. All of the host devices are availab
 kubectl exec security-context-test-2 -- ls -lah /dev
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 #### pod-runas.yaml
 
@@ -112,7 +119,7 @@ Open a shell in the container. Notice that the shell prompt is **$** and not # i
 kubectl exec security-context-test-3 -it -- /bin/sh
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 List the running processes in the container. The **USER** ID is 2000 illustrating that it is not root and that the container security context overrides the setting in the Pod security context when both security contexts include the same field. Whenever possible you should not run as root.
 
@@ -120,7 +127,7 @@ List the running processes in the container. The **USER** ID is 2000 illustratin
 ps
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Attempt to create a file in the /tmp directory
 
@@ -129,7 +136,7 @@ touch /tmp/test-file
 exit
 ```
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Delete the pod resource
 
