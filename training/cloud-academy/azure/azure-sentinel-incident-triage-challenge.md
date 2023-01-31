@@ -48,7 +48,7 @@ First we need to head over to the Log Analytics workspace and make sure that the
 
 Shortly after you should see that the VM has connected to the workspace.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now we start creating our collection rule within Sentinel. Head back to Microsoft Sentinel. Click the data connectors and add Windows Security Events via AMA.
 

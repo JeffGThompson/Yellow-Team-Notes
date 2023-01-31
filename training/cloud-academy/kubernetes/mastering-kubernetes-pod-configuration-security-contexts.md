@@ -48,7 +48,7 @@ kubectl create -f pod-no-security-context.yaml
 kubectl exec security-context-test-1 -- ls /dev
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### pod-privileged.yaml
 
