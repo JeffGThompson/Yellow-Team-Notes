@@ -127,7 +127,7 @@ List the running processes in the container. The **USER** ID is 2000 illustratin
 ps
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Attempt to create a file in the /tmp directory
 

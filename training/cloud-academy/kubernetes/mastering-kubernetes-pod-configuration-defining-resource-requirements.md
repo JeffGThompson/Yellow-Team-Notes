@@ -95,7 +95,7 @@ Get the Pods in wide output to display the Node running each Pod.
 kubectl get pods -o wide
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Wait a minute for the new Pod's metrics to be collected, and then display the Pod resource utilization. Notice the **load-limited** Pod is using almost half of a CPU core, which is the limit you set. The request is used for making scheduling decisions but the limit impacts the actual utilization. Using requests and limits for CPU and memory can prevent performance issues, and allow the scheduler to make the best use of the cluster's resources.
 

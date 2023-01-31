@@ -13,3 +13,4 @@
     * [Kubernetes](training/cloud-academy/kubernetes/README.md)
       * [Mastering Kubernetes Pod Configuration: Defining Resource Requirements](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-defining-resource-requirements.md)
       * [Mastering Kubernetes Pod Configuration: Security Contexts](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-security-contexts.md)
+      * [Mastering Kubernetes Pod Configuration: Persistent Data](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-persistent-data.md)
