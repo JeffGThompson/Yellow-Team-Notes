@@ -1,3 +1,10 @@
+---
+description: >-
+  Kubernetes provides a variety of features to get the most out of your
+  containerized applications. This lab will train you on Pod configuration
+  concepts that teach you how to persist data beyond the li
+---
+
 # Mastering Kubernetes Pod Configuration: Persistent Data
 
 ## Walkthrough
