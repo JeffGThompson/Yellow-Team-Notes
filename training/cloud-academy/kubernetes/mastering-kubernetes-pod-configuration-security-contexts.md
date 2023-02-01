@@ -119,7 +119,7 @@ Open a shell in the container. Notice that the shell prompt is **$** and not # i
 kubectl exec security-context-test-3 -it -- /bin/sh
 ```
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 List the running processes in the container. The **USER** ID is 2000 illustrating that it is not root and that the container security context overrides the setting in the Pod security context when both security contexts include the same field. Whenever possible you should not run as root.
 

@@ -116,7 +116,7 @@ Enter incorrect credentials a few times to create logs.
 
 Now we can start creating our Analytics rule.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -126,7 +126,7 @@ Now we can start creating our Analytics rule.
 
 ****
 
-<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
@@ -172,5 +172,5 @@ After a few minutes we can see an incident was created. Nothing left to do excep
 
 
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 

@@ -1,4 +1,11 @@
-# Page 1
+---
+description: >-
+  How to how to create a ConfigMap from a literal key-value pair and mount the
+  configuration data into a Pod using a volume. and create a new secret and use
+  it in a Pod through environment variables.
+---
+
+# Mastering Kubernetes Pod Configuration: Config Maps and Secrets
 
 ## Walkthrough
 
@@ -26,7 +33,7 @@ Display the ConfigMap. This is also how you would declare an equivalent ConfigMa
 kubectl get configmaps app-config -o yaml
 ```
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Create a Pod that mounts the ConfigMap using a volume. The volume uses the configMap key to create a volume using a ConfigMap.
 
@@ -65,7 +72,7 @@ List the /config directory, where the ConfigMap volume is mounted, in the contai
 kubectl exec db -it -- ls /config
 ```
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Get the contents of the DB\_NAME file. The file content is the value of the corresponding ConfigMap key-value pair. The && echo is added simply to put the shell prompt onto a new line.
 
@@ -79,7 +86,7 @@ View more examples of creating ConfigMaps by entering
 kubectl create configmap --help | more
 ```
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Storing and Accessing Sensitive Information Using Kubernetes Secrets <a href="#lab-page-title" id="lab-page-title"></a>
 
@@ -106,7 +113,7 @@ Note: When you use kubectl create secret, the value is automatically encoded. If
 kubectl get secret app-secret -o yaml
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Confirm the secret value is base-64 encoded by decoding it. The base64 command can encode/decode strings. The --decode option must be specified to decode while the behavior with no options is to encode. The final echo is used to add a new line to the output so the shell prompt is on its own line.
 
@@ -116,7 +123,7 @@ kubectl get secret app-secret -o jsonpath="{.data.password}" \
   && echo
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 Create a Pod that uses the Secret through an environment variable. When using a secret through an environment variable, you must include valueFrom.secretKeyRef to specify the source of the environment variable.
 
@@ -152,4 +159,4 @@ Print the value of the environment variable in the Pod's container. Notice that 
 kubectl exec pod-secret -- /bin/sh -c 'echo $PASSWORD'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

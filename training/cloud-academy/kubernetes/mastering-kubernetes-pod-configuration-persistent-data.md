@@ -47,7 +47,7 @@ You will use the PVC to store data in a database, a common example of persistent
 kubectl get pvc
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 pvc is a kubectl alias for persistentvolumeclaim, so you don't need to type the complete Resource name. The output shows the PVC STATUS is Bound, but the output may show Pending while the underlying PV is being created. The STORAGECLASS is gp2 which is the type of automatically configured Amazon EBS volumes that are created. Use get to display the underlying PV.
 

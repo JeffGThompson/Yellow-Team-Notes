@@ -38,7 +38,7 @@ List the resource consumption of pods. The **load** pod is using nearly two full
 kubectl top pods
 ```
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure>
 
 The Pod is using almost all the CPU for one of the nodes in the cluster.
 
@@ -81,7 +81,7 @@ The nodes and output their non-terminated Pods tables to highlight how schedulin
 kubectl describe nodes | grep --after-context=5 "Non-terminated Pods"
 ```
 
-<figure><img src="../../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Create the Pod with the resource constraints.
 

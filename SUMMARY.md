@@ -14,4 +14,4 @@
       * [Mastering Kubernetes Pod Configuration: Defining Resource Requirements](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-defining-resource-requirements.md)
       * [Mastering Kubernetes Pod Configuration: Security Contexts](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-security-contexts.md)
       * [Mastering Kubernetes Pod Configuration: Persistent Data](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-persistent-data.md)
-      * [Page 1](training/cloud-academy/kubernetes/page-1.md)
+      * [Mastering Kubernetes Pod Configuration: Config Maps and Secrets](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-config-maps-and-secrets.md)
