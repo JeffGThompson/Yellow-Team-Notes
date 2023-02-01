@@ -97,7 +97,7 @@ kubectl exec db -it -- mongo testdb --quiet --eval \
   'db.messages.insert({"message": "I was here"}); db.messages.findOne().message'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Delete the Pod. At this point, a regular (emptyDir) volume would be destroyed and the database files would be lost.
 
