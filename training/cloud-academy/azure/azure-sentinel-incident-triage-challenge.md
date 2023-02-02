@@ -130,7 +130,7 @@ Now we can start creating our Analytics rule.
 
 ****
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 Make sure alert threshold is greater than 0 so it fires if any hits happen.
 
