@@ -33,7 +33,7 @@ kubectl run default-pod --image=mongo:4.0.6
 kubectl get pod default-pod -o yaml | more
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Create a new ServiceAccount. It is a best practice to create a ServiceAccount for each of your applications to use the least amount of access necessary (principle of least privilege) to improve security. The created ServiceAccount will not have any specific role bound to it so there are no additional permissions associated with it. In practice, your Kubernetes administrator would create a role and bind it to the ServiceAccount.
 
@@ -73,5 +73,5 @@ Get the Pod's YAML manifest. The output confirms the app-sa ServiceAccount is be
 kubectl get pod custom-sa-pod -o yaml | more
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 

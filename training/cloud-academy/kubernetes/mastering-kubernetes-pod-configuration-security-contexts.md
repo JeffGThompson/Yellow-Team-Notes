@@ -81,7 +81,7 @@ List the devices available in the container. All of the host devices are availab
 kubectl exec security-context-test-2 -- ls -lah /dev
 ```
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### pod-runas.yaml
 
@@ -127,7 +127,7 @@ List the running processes in the container. The **USER** ID is 2000 illustratin
 ps
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Attempt to create a file in the /tmp directory
 

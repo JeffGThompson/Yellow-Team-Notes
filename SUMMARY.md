@@ -16,3 +16,4 @@
       * [Mastering Kubernetes Pod Configuration: Persistent Data](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-persistent-data.md)
       * [Mastering Kubernetes Pod Configuration: Config Maps and Secrets](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-config-maps-and-secrets.md)
       * [Mastering Kubernetes Pod Configuration: Service Accounts](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-service-accounts.md)
+      * [Create Kubernetes Nginx Ingress Controller for External API Traffic](training/cloud-academy/kubernetes/create-kubernetes-nginx-ingress-controller-for-external-api-traffic.md)
