@@ -113,7 +113,7 @@ Note: When you use kubectl create secret, the value is automatically encoded. If
 kubectl get secret app-secret -o yaml
 ```
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 Confirm the secret value is base-64 encoded by decoding it. The base64 command can encode/decode strings. The --decode option must be specified to decode while the behavior with no options is to encode. The final echo is used to add a new line to the output so the shell prompt is on its own line.
 

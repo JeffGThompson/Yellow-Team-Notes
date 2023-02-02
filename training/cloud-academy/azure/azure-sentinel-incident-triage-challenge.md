@@ -22,7 +22,7 @@ Head over to Microsoft Sentinel and create it.
 
 Make sure you have the calabws workspace selected.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
@@ -58,7 +58,7 @@ Now we start creating our collection rule within Sentinel. Head back to Microsof
 
 Add the rule name windows-event.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -130,7 +130,7 @@ Now we can start creating our Analytics rule.
 
 ****
 
-<figure><img src="../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Make sure alert threshold is greater than 0 so it fires if any hits happen.
 
@@ -138,7 +138,7 @@ Make sure alert threshold is greater than 0 so it fires if any hits happen.
 
 Leave default settings.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ****
 
@@ -166,7 +166,7 @@ Close at least one incident from the Sentinel Incidents Dashboard
 
 After a few minutes we can see an incident was created. Nothing left to do except close the incident.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

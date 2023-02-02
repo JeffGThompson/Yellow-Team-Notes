@@ -24,7 +24,7 @@ Get the ServiceAccounts in the Namespace. Each Namespace has a default ServiceAc
 kubectl get serviceaccounts
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 Create a Pod and get its YAML manifest. Observe the spec.serviceAccount is automatically set to the default ServiceAccount. To configure a Pod's ServiceAccount you can set the spec.serviceAccount when a Pod is created.
 
