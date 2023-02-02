@@ -42,7 +42,7 @@ First we need to head over to the Log Analytics workspace and make sure that the
 
 
 
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (6) (1).png>)
 
 
 
@@ -116,7 +116,7 @@ Enter incorrect credentials a few times to create logs.
 
 Now we can start creating our Analytics rule.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

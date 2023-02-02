@@ -33,7 +33,7 @@ Display the ConfigMap. This is also how you would declare an equivalent ConfigMa
 kubectl get configmaps app-config -o yaml
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Create a Pod that mounts the ConfigMap using a volume. The volume uses the configMap key to create a volume using a ConfigMap.
 
@@ -86,7 +86,7 @@ View more examples of creating ConfigMaps by entering
 kubectl create configmap --help | more
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Storing and Accessing Sensitive Information Using Kubernetes Secrets <a href="#lab-page-title" id="lab-page-title"></a>
 
