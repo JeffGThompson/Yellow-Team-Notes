@@ -46,7 +46,7 @@ The Pod is using almost all the CPU for one of the nodes in the cluster.
 kubectl top nodes
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

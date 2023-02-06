@@ -117,7 +117,7 @@ Attempt to find a document in the test database. The output confirms the data wa
 kubectl exec db -it -- mongo testdb --quiet --eval 'db.messages.findOne().message'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

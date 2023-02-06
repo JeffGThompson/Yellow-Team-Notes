@@ -33,7 +33,7 @@ Display the ConfigMap. This is also how you would declare an equivalent ConfigMa
 kubectl get configmaps app-config -o yaml
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Create a Pod that mounts the ConfigMap using a volume. The volume uses the configMap key to create a volume using a ConfigMap.
 
@@ -159,4 +159,4 @@ Print the value of the environment variable in the Pod's container. Notice that 
 kubectl exec pod-secret -- /bin/sh -c 'echo $PASSWORD'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>

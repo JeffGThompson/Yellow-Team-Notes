@@ -17,3 +17,4 @@
       * [Mastering Kubernetes Pod Configuration: Config Maps and Secrets](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-config-maps-and-secrets.md)
       * [Mastering Kubernetes Pod Configuration: Service Accounts](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-service-accounts.md)
       * [Create Kubernetes Nginx Ingress Controller for External API Traffic](training/cloud-academy/kubernetes/create-kubernetes-nginx-ingress-controller-for-external-api-traffic.md)
+      * [Create Kubernetes Layer-7 Network Policies using Cilium CNI](training/cloud-academy/kubernetes/create-kubernetes-layer-7-network-policies-using-cilium-cni.md)
