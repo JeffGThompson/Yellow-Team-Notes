@@ -18,3 +18,6 @@
       * [Mastering Kubernetes Pod Configuration: Service Accounts](training/cloud-academy/kubernetes/mastering-kubernetes-pod-configuration-service-accounts.md)
       * [Create Kubernetes Nginx Ingress Controller for External API Traffic](training/cloud-academy/kubernetes/create-kubernetes-nginx-ingress-controller-for-external-api-traffic.md)
       * [Create Kubernetes Layer-7 Network Policies using Cilium CNI](training/cloud-academy/kubernetes/create-kubernetes-layer-7-network-policies-using-cilium-cni.md)
+    * [Cloud Guru](training/cloud-academy/cloud-guru/README.md)
+      * [Certified Kubernetes Administrator (CKA)](training/cloud-academy/cloud-guru/certified-kubernetes-administrator-cka/README.md)
+        * [Certified Kubernetes Administrator (CKA) Practice Exam: Part 1](training/cloud-academy/cloud-guru/certified-kubernetes-administrator-cka/certified-kubernetes-administrator-cka-practice-exam-part-1.md)
