@@ -55,7 +55,7 @@ pvc is a kubectl alias for persistentvolumeclaim, so you don't need to type the 
 kubectl get pv
 ```
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 Similar information is displayed. There is a **RECLAIM POLICY** associated with the PV. The **Delete** policy means the PV is deleted once the PVC is deleted. It is also possible to keep the PV using other reclaim policies. Create a Pod that mounts the volume provided by the PVC.
 

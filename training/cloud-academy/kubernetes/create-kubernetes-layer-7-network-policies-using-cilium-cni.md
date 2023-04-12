@@ -20,7 +20,7 @@ http://PUBLIC_IP_IDE_CLOUDACADEMY_PLATFORM_INSTANCE:3000
 
 Within the Files Explorer pane right-click on the **project/code/cillium** folder and then select the **Open in Terminal** option to launch the integrated terminal.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Use the **kubectl** command to install the Cilium Kubernetes CNI plugin into the local Kubernetes cluster. Within the terminal enter the following command.
 
@@ -36,7 +36,7 @@ watch -n2 kubectl -n kube-system get pods
 
 Once all Cilium Pods have reached the **running** status, exit the previous command by entering the key sequence CTRL+C.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Deploy API Pods <a href="#lab-page-title" id="lab-page-title"></a>
 
@@ -70,7 +70,7 @@ Confirm that the service has launched successfully. Within the terminal run the 
 kubectl get services
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Test API Before Layer-7 Network Policy is Deployed <a href="#lab-page-title" id="lab-page-title"></a>
 
@@ -105,7 +105,7 @@ Now perform a curl request that originates from **xwing** pod and is sent to the
 kubectl exec -it xwing -- curl -is -XPOST http://$DEATHSTAR_VIP/v1/request-landing
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Secure API with Layer-7 Network Policy <a href="#lab-page-title" id="lab-page-title"></a>
 

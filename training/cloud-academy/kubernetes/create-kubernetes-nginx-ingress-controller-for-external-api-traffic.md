@@ -17,7 +17,7 @@ In the AWS Management Console search bar, enter _EC2_, and click the **EC2** res
 
 In the left-hand menu, click on **Instances**, select the _k8s.cluster.cloudacademy.platform.instance_ EC2 instance, and locate and copy the _IPv4 Public IP_ address.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 The web-based CloudAcademy IDE has been configured to listen for inbound connections on port **3000** using HTTP. Using your browser, navigate to the IDE hosted on the _k8s.cluster.cloudacademy.platform.instance_ EC2 instance using the public IP address you just copied.
 
@@ -31,7 +31,7 @@ http://PUBLIC_IP_IDE_CLOUDACADEMY_PLATFORM_INSTANCE:3000
 
 Within the Files Explorer pane right-click on the **project/code/cillium** folder and then select the **Open in Terminal** option to launch the integrated terminal
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
 Use the **kubectl** command to install the Cilium Kubernetes CNI plugin into the local Kubernetes cluster. Within the terminal enter the following command.
 
@@ -155,7 +155,7 @@ EXTIP=`curl ipinfo.io/ip`
 sed -i -e "s/X.X.X.X.nip.io/$EXTIP.nip.io/g" deploy-api-ingress.yaml
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Create the new Kubernetes Ingress resource for the API service. Within the terminal run the following commands.
 
