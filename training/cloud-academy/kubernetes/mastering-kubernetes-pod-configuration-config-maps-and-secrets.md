@@ -72,7 +72,7 @@ List the /config directory, where the ConfigMap volume is mounted, in the contai
 kubectl exec db -it -- ls /config
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Get the contents of the DB\_NAME file. The file content is the value of the corresponding ConfigMap key-value pair. The && echo is added simply to put the shell prompt onto a new line.
 

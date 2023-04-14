@@ -62,7 +62,7 @@ Confirm that all of the pods have launched successfully. Within the terminal run
 kubectl get pods
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Confirm that the service has launched successfully. Within the terminal run the following commands
 

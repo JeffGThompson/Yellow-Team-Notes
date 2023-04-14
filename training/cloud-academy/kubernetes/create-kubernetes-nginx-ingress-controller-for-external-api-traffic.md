@@ -140,7 +140,7 @@ kubectl get services
 
 Within the **Files** pane, open the **lab-code/deploy-api-ingress.yaml** file within the editor. Take some time to review the Kubernetes Ingress resource that is going to be provisioned within the cluster.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 Ensure that you are in the **lab-code** directory. Within the terminal run the following commands
 

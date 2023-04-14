@@ -15,7 +15,7 @@ kubectl config use-context acgk8s
 kubectl get nodes
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 I just grepped for taints first to see what was currently set to see what is ready to run normal workloads. Only control was not ready.
 
@@ -27,7 +27,7 @@ cloud_user@acgk8s-control:~$ kubectl describe node acgk8s-worker2 | grep -i tain
 cloud_user@acgk8s-control:~$ kubectl describe node acgk8s-control | grep -i taints
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 **Linux**
 
@@ -36,7 +36,7 @@ kubectl get nodes -o='custom-columns=NodeName:.metadata.name,TaintKey:.spec.tain
 cat /k8s/0001/count.txt
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 **Retrieve Error Messages from a Container Log**
 
@@ -51,7 +51,7 @@ kubectl config set-context --current --namespace=backend
 kubectl get pods
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 **Linux**
 
@@ -74,7 +74,7 @@ kubectl config set-context --current --namespace=web
 kubectl get pods
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 **Linux**
 
@@ -82,7 +82,7 @@ kubectl get pods
 kubectl top pods -n web --sort-by cpu --selector=app=auth 
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 **Linux**
 
