@@ -111,7 +111,7 @@ kubectl exec -it xwing -- curl -is -XPOST http://$DEATHSTAR_VIP/v1/request-landi
 
 Within the **Files** pane, open the **lab-code/l7-networkpolicy.yaml** file within the editor. Take some time to review the Layer-7 rules defined within the Network Policy
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
 
 Ensure that you still in the **lab-code** directory. Within the terminal run the following commands.
 
