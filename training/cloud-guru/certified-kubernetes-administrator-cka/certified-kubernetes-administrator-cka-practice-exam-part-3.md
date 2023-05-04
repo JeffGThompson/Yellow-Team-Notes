@@ -72,4 +72,6 @@ roleRef:
 </strong><strong>kubectl get pods -n web --as=system:serviceaccount:web:webautomation
 </strong></code></pre>
 
+There are no pods in this namespace but if there was we'd be able to view them as the webautomation service account.
+
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
