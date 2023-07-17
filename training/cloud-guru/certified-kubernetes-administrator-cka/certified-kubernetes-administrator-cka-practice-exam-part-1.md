@@ -82,7 +82,7 @@ kubectl get pods
 kubectl top pods -n web --sort-by cpu --selector=app=auth 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 **Linux**
 

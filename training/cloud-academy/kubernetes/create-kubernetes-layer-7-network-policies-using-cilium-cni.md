@@ -20,7 +20,7 @@ http://PUBLIC_IP_IDE_CLOUDACADEMY_PLATFORM_INSTANCE:3000
 
 Within the Files Explorer pane right-click on the **project/code/cillium** folder and then select the **Open in Terminal** option to launch the integrated terminal.
 
-<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Use the **kubectl** command to install the Cilium Kubernetes CNI plugin into the local Kubernetes cluster. Within the terminal enter the following command.
 
@@ -62,7 +62,7 @@ Confirm that all of the pods have launched successfully. Within the terminal run
 kubectl get pods
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Confirm that the service has launched successfully. Within the terminal run the following commands
 
