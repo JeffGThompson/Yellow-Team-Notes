@@ -24,3 +24,5 @@
       * [Certified Kubernetes Administrator (CKA) Practice Exam: Part 2](training/cloud-guru/certified-kubernetes-administrator-cka/certified-kubernetes-administrator-cka-practice-exam-part-2.md)
       * [Certified Kubernetes Administrator (CKA) Practice Exam: Part 3](training/cloud-guru/certified-kubernetes-administrator-cka/certified-kubernetes-administrator-cka-practice-exam-part-3.md)
       * [Certified Kubernetes Administrator (CKA) Practice Exam: Part 4](training/cloud-guru/certified-kubernetes-administrator-cka/certified-kubernetes-administrator-cka-practice-exam-part-4.md)
+    * [Introduction to Kubernetes](training/cloud-guru/introduction-to-kubernetes/README.md)
+      * [Building a Kubernetes 1.24 Cluster with kubeadm](training/cloud-guru/introduction-to-kubernetes/building-a-kubernetes-1.24-cluster-with-kubeadm.md)
