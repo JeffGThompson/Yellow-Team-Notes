@@ -97,7 +97,7 @@ Now perform a curl request that originates from **tiefighter** pod and is sent t
 kubectl exec -it tiefighter -- curl -is -XPOST http://$DEATHSTAR_VIP/v1/request-landing
 ```
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 Now perform a curl request that originates from **xwing** pod and is sent to the same /v1/request-landing API service endpoint. Within the terminal run the following commands. Notice the response which indicates success - which is NOT expected.
 
@@ -131,7 +131,7 @@ Confirm that the Cilium Network Policy has been deployed successfully. Within th
 kubectl describe cnp
 ```
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Test API After Layer-7 Network Policy is Deployed <a href="#lab-page-title" id="lab-page-title"></a>
 
@@ -150,7 +150,7 @@ Now perform a curl request that originates from **tiefighter** pod and is sent t
 kubectl exec -it tiefighter -- curl -i --connect-timeout 10 -XPOST http://$DEATHSTAR_VIP/v1/request-landing
 ```
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
 
 Now perform a curl request that originates from **xwing** pod and is sent to the same /v1/request-landing API service endpoint. Within the terminal run the following commands. otice now that no response is given - this is based on the previously deployed network policy now blocking this type of traffic - which is what we want.
 

@@ -16,7 +16,7 @@ Create an Azure Sentinel resource using the existing Log Analytics workspace.
 
 Head over to Microsoft Sentinel and create it.
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -74,7 +74,7 @@ Add the VM we added to the Log Analytics workspace.
 
 
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 Make sure we have Common selected.
 
@@ -150,7 +150,7 @@ Leave default settings.
 
 Click Create.
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

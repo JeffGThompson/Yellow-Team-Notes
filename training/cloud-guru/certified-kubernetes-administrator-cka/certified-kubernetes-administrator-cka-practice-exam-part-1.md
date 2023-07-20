@@ -15,7 +15,7 @@ kubectl config use-context acgk8s
 kubectl get nodes
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 I just grepped for taints first to see what was currently set to see what is ready to run normal workloads. Only control was not ready.
 

@@ -18,7 +18,7 @@ ETCDCTL_API=3 etcdctl snapshot save /home/cloud_user/etcd_backup.db \
 --key=/home/cloud_user/etcd-certs/etcd-server.key
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
