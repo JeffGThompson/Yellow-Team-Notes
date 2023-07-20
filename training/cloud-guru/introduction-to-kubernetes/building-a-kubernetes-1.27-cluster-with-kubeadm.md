@@ -262,7 +262,9 @@ kubectl get nodes
 
 <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Install the Calico Network Add-On
+## Install the Calico Network Add-On
+
+### **Control Pane Node**
 
 **On the control plane node, install Calico Networking:**
 
@@ -278,6 +280,10 @@ kubectl get nodes
 
 <figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
+## Join the Worker Nodes to the Cluster
+
+### **Control Pane Node**
+
 **In the control plane node, create the token and copy the `kubeadm join` command:**
 
 ```
@@ -286,7 +292,7 @@ kubeadm token create --print-join-command
 
 <figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-## Worker Node
+### Worker Node
 
 **You can just copy the output from the previous command on the Control Pane Node but add sudo first and it will look similar to this:**
 
@@ -300,9 +306,7 @@ kubeadm join 10.0.1.101:6443 --token $token  --discovery-token-ca-cert-hash $dis
 sudo kubeadm join
 ```
 
-
-
-## **Control Pane Node**
+### **Control Pane Node**
 
 In the control plane node, view the cluster status:
 
