@@ -13,7 +13,7 @@ description: >-
 
 In the AWS Management Console search bar, enter _EC2_, and click the **EC2** result under **Services.**
 
-<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the left-hand menu, click on **Instances**, select the _k8s.cluster.cloudacademy.platform.instance_ EC2 instance, and locate and copy the _IPv4 Public IP_ address.&#x20;
 
@@ -45,7 +45,7 @@ Use both **watch** and **kubectl** to view the Cilium pods starting up. Within t
 watch -n2 kubectl -n kube-system get pods
 ```
 
-<figure><img src="../../../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Install Nginx Ingress Controller <a href="#lab-page-title" id="lab-page-title"></a>
 

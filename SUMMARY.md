@@ -27,3 +27,4 @@
     * [Introduction to Kubernetes](training/cloud-guru/introduction-to-kubernetes/README.md)
       * [Building a Kubernetes 1.27 Cluster with kubeadm](training/cloud-guru/introduction-to-kubernetes/building-a-kubernetes-1.27-cluster-with-kubeadm.md)
       * [Working with Kubernetes Using kubectl](training/cloud-guru/introduction-to-kubernetes/working-with-kubernetes-using-kubectl.md)
+      * [Running Containers with Kubernetes](training/cloud-guru/introduction-to-kubernetes/running-containers-with-kubernetes.md)
