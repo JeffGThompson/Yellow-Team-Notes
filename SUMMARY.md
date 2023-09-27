@@ -30,3 +30,4 @@
       * [Running Containers with Kubernetes](training/cloud-guru/introduction-to-kubernetes/running-containers-with-kubernetes.md)
     * [Kubernetes Essentials](training/cloud-guru/kubernetes-essentials/README.md)
       * [Deploying a Simple Service to Kubernetes](training/cloud-guru/kubernetes-essentials/deploying-a-simple-service-to-kubernetes.md)
+      * [Deploying a Microservice Application to Kubernetes](training/cloud-guru/kubernetes-essentials/deploying-a-microservice-application-to-kubernetes.md)
