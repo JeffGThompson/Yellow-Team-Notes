@@ -31,3 +31,5 @@
     * [Kubernetes Essentials](training/cloud-guru/kubernetes-essentials/README.md)
       * [Deploying a Simple Service to Kubernetes](training/cloud-guru/kubernetes-essentials/deploying-a-simple-service-to-kubernetes.md)
       * [Deploying a Microservice Application to Kubernetes](training/cloud-guru/kubernetes-essentials/deploying-a-microservice-application-to-kubernetes.md)
+    * [Learn Kubernetes by Doing](training/cloud-guru/learn-kubernetes-by-doing/README.md)
+      * [Creating a Kubernetes Cluster](training/cloud-guru/learn-kubernetes-by-doing/creating-a-kubernetes-cluster.md)
