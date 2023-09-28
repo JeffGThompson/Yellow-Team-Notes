@@ -70,7 +70,7 @@ Confirm that the service has launched successfully. Within the terminal run the 
 kubectl get services
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Test API Before Layer-7 Network Policy is Deployed <a href="#lab-page-title" id="lab-page-title"></a>
 

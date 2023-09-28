@@ -159,4 +159,4 @@ Print the value of the environment variable in the Pod's container. Notice that 
 kubectl exec pod-secret -- /bin/sh -c 'echo $PASSWORD'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -32,7 +32,7 @@ spec:
 EOF
 ```
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Create a store-products service and verify that you can access it from the busybox testing pod.
 
@@ -61,7 +61,7 @@ kubectl get svc store-products
 curl http://$ClusterIP
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Use kubectl exec to query the store-products service from the busybox testing pod.**
 
@@ -69,7 +69,7 @@ curl http://$ClusterIP
 kubectl exec busybox -- curl -s store-products
 ```
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
