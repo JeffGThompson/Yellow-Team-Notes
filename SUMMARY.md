@@ -34,3 +34,4 @@
     * [Learn Kubernetes by Doing](training/cloud-guru/learn-kubernetes-by-doing/README.md)
       * [Creating a Kubernetes Cluster](training/cloud-guru/learn-kubernetes-by-doing/creating-a-kubernetes-cluster.md)
       * [Deploying a Pod to a Node with a Label in Kubernetes](training/cloud-guru/learn-kubernetes-by-doing/deploying-a-pod-to-a-node-with-a-label-in-kubernetes.md)
+      * [Creating a Service and Discovering DNS Names in Kubernetes](training/cloud-guru/learn-kubernetes-by-doing/creating-a-service-and-discovering-dns-names-in-kubernetes.md)

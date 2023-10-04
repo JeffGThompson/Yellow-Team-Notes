@@ -13,7 +13,7 @@ br_netfilter
 EOF
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Load the modules:**
 
@@ -32,7 +32,7 @@ net.bridge.bridge-nf-call-ip6tables = 1
 EOF
 ```
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 **Apply the new settings:**
 
@@ -131,7 +131,7 @@ br_netfilter
 EOF
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Load the modules:**
 
@@ -186,7 +186,7 @@ sudo systemctl restart containerd
 sudo systemctl status containerd
 ```
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
 **Disable swap:**
 

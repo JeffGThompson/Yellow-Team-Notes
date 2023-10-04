@@ -106,7 +106,7 @@ kubectl apply -f nginx-ingress-controller-v2.yaml
 
 Within the **Files** pane, open the **project/code/API/lab-code/deploy-api.yaml** file within the editor. Take some time to review the Kubernetes resources that are going to be provisioned within the cluster:
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ensure that you are in the **lab-code** directory. Within the terminal run the following commands
 
@@ -126,7 +126,7 @@ Confirm that all of the pods have launched successfully. Within the terminal run
 kubectl get pods
 ```
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Confirm that the service has launched successfully. Within the terminal run the following commands
 
@@ -194,4 +194,4 @@ Retest the API again, but this time format the response. Within the terminal run
 curl -s api.$EXTIP.nip.io/languages | jq .
 ```
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -70,7 +70,7 @@ Confirm that the service has launched successfully. Within the terminal run the 
 kubectl get services
 ```
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Test API Before Layer-7 Network Policy is Deployed <a href="#lab-page-title" id="lab-page-title"></a>
 
@@ -81,7 +81,7 @@ DEATHSTAR_VIP=`kubectl get service/deathstar -o jsonpath='{.spec.clusterIP}'`
 echo $DEATHSTAR_VIP 
 ```
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Perform a curl request that originates from **tiefighter** pod and is sent to the /v1 API service endpoint. This should display all of the available API endpoints. Within the terminal run the following commands
 
@@ -131,7 +131,7 @@ Confirm that the Cilium Network Policy has been deployed successfully. Within th
 kubectl describe cnp
 ```
 
-<figure><img src="../../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Test API After Layer-7 Network Policy is Deployed <a href="#lab-page-title" id="lab-page-title"></a>
 
