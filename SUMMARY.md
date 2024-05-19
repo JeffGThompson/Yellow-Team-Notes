@@ -36,3 +36,5 @@
       * [Deploying a Pod to a Node with a Label in Kubernetes](training/cloud-guru/learn-kubernetes-by-doing/deploying-a-pod-to-a-node-with-a-label-in-kubernetes.md)
       * [Creating a Service and Discovering DNS Names in Kubernetes](training/cloud-guru/learn-kubernetes-by-doing/creating-a-service-and-discovering-dns-names-in-kubernetes.md)
       * [Scheduling Pods with Taints and Tolerations in Kubernetes](training/cloud-guru/learn-kubernetes-by-doing/scheduling-pods-with-taints-and-tolerations-in-kubernetes.md)
+    * [AWS](training/cloud-guru/aws/README.md)
+      * [Creating an AWS CodeCommit Repository That Triggers Email Notifications](training/cloud-guru/aws/creating-an-aws-codecommit-repository-that-triggers-email-notifications.md)
