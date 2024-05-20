@@ -38,3 +38,5 @@
       * [Scheduling Pods with Taints and Tolerations in Kubernetes](training/cloud-guru/learn-kubernetes-by-doing/scheduling-pods-with-taints-and-tolerations-in-kubernetes.md)
     * [AWS](training/cloud-guru/aws/README.md)
       * [Creating an AWS CodeCommit Repository That Triggers Email Notifications](training/cloud-guru/aws/creating-an-aws-codecommit-repository-that-triggers-email-notifications.md)
+    * [Docker](training/cloud-guru/docker/README.md)
+      * [Deploying a Docker Container with Jenkins Pipelines](training/cloud-guru/docker/deploying-a-docker-container-with-jenkins-pipelines.md)
